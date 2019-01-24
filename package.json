@@ -1,0 +1,24 @@
+{
+  "name": "graphql-nodejs",
+  "version": "1.0.0",
+  "description": "graphql with nodejs server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshkathayat/graphql-nodejs.git"
+  },
+  "author": "yogesh kathayat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yogeshkathayat/graphql-nodejs/issues"
+  },
+  "homepage": "https://github.com/yogeshkathayat/graphql-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  }
+}
