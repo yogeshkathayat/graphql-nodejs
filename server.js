@@ -5,14 +5,15 @@ const { buildSchema } = require('graphql');
 // GraphQL schema
 var schema = buildSchema(`
     type Query {
-        message: String
+        name: String,
+        age:Int
     }
-
 `);
 
 // Root resolver
 var root = {
-    message: () => 'Hello World!'
+    name: () => 'yogesh',
+    age: () => '25'
 };
 
 
